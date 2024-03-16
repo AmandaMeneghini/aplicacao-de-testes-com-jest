@@ -4,16 +4,11 @@
   "description": "",
   "main": "calcular-valor-pedidos.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^29.7.0"
-  }
-  {
-    "scripts": {
-      "test": "jest"
-    }
   }
 }
