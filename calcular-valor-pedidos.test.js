@@ -43,7 +43,6 @@ it("deve cobrar o valor de frete quando o valor dos produtos for EXATAMENTE 500"
     expect(resultado).toBe(600)
 })
 
-//CRIANDO função que adiciona 20% a mais no valor do frete, se o estado for RS ou SC
 it("deve acrescentar 20% ao valor de entrega caso o estado seja RS", () => {
     const pedidoComEstadoRS = {
         estado: "RS",
